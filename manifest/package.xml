@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>OppColorCreator</members>
+        <members>OppColorTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Opportunity</members>
+        <members>Opp_Color__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>OppColorTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Opp_Color__mdt.Red</members>
+        <members>Opp_Color__mdt.Green</members>
+        <members>Opp_Color__mdt.Yellow</members>
+        <members>Opp_Color__mdt.Orange</members>
+        <name>CustomMetadata</name>    
+    </types>
+    <version>56.0</version>
+</Package>
